@@ -1,10 +1,19 @@
 import random
 
-secret_number = random.randint(1, 20)
+number_to_guess = random.randint(1, 100)
+attempts = 0
+max_attempts = 3
 
-guess = int(input("Guess a number between 1 and 20: "))
+while attempts < max_attempts:
+    guess = int(input("Make a guess (number between 1 and 100): "))
+    attempts += 1
 
-if guess == secret_number:
-    print("Correct! You win!")
+    if guess < number_to_guess:
+        print("The number is higher.")
+    elif guess > number_to_guess:
+        print("The number is lower.")
+    else:
+        print("Congratulations! You guessed the correct number.")
+        break
 else:
-    print("Wrong! The number was:", secret_number)
+    print(f"Sorry! You've used all your attempts. The correct number was {number_to_guess}.")
