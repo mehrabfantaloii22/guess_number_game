@@ -8,9 +8,9 @@ The player tries to guess the number.
 Run the following command:
 `python game.py`
 ## Features
- Random number generation
- User input
- Simple if/else condition
- Win or lose message
+- Random number generation
+- User input
+- Simple if/else condition
+- Win or lose message
 ## Author
-Created by a Python student.
+Created by a Python mehrab.
