@@ -14,3 +14,5 @@ Run the following command:
 - Win or lose message
 ## Author
 Created by a Python mehrab.
+## My GitHub Practice
+This repository was created during GitHub training.
